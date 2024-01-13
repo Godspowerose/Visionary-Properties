@@ -1,0 +1,983 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;}
+
+@media screen and (min-width: 1024px){
+    header {
+        position: relative;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+    }
+    .menuicon {
+        display: none;
+    }
+    .navbar ul {
+        display: flex;
+        gap: 20px;
+    }
+    .navbar li, a {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+    }
+    .navbar a:hover {
+        color: #0457c7;
+        font-weight: bold;
+    }
+    .scrollline {
+        height: 1px;
+        width: 255px;
+        background-color: black;
+        position: absolute;
+        top: 80px;
+        right: 40px;
+    }
+
+    .allfirst {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .lefttext {
+        max-width: 50%;
+        padding: 40px 100px 40px 40px;
+        background-color: #0457c7;
+        color: #fff;
+
+    }
+    .lefttext h2 {
+        font-size: 50px;
+    }
+    .break {
+        margin-top: 30px;
+    }
+    .lefttext p {
+        margin-top: 10px;
+    }
+
+    .rightimg {
+        max-width: 50%;
+        padding-right: 40px;
+    }
+    .firstimg {
+        max-width: 100%;
+    }
+
+    /* --------Second Section-------- */
+    .second {
+        margin-top: 80px;
+    }
+    .allsecond {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100%;
+    }
+    .sleft {
+        max-width: 50%;
+        padding: 40px 100px 40px 40px;
+
+    }
+    .sleft h2 {
+        font-size: 40px;
+    }
+    .sleft p {
+        margin-top: 20px;
+    }
+    .box {
+        background-color: #0457c7;
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .no1 {
+        display: flex;
+        align-items: start;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    .no2 {
+        display: flex;
+        align-items: start;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    .v2 {
+        height: 30px;
+    }
+
+    .sright {
+        max-width: 60%;
+        padding-right: 40px;
+    }
+    .secondimg {
+        max-width: 100%;
+    }
+
+
+    /* --------Third session-------- */
+    .third{
+    position: relative;
+    background-color: #0457c7;
+    height: 150px;
+    width: 100%;
+
+    }
+    .allthird {
+    position: relative;
+    margin-top: 30px;
+    padding: 40px;
+
+    }
+    .bcolor{
+        height: 360px;
+        width: 100%;
+        background-color: #0457c7;
+        position: absolute;
+        top: 0;
+        /* z-index: -1; */
+
+    }
+    .color{
+        height: 150px;
+        width: 100%;
+        background-color: #89B5F0;
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+
+    }
+    .thirdtext {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    /* .thirdtext p{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    } */
+    .thirdtext h2 {
+        margin-bottom: 5px;
+    }
+   .contact {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+   } 
+   .c1 {
+    padding: 30px;
+    border: 2px solid #0457c7;
+    background-color: #fff;
+    display: grid;
+   }
+   .c1 button {
+    width: 100px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 2px solid #0457c7;
+    border-radius: 20px;
+   }
+    .c1 button:hover {
+    background-color: #0457c7;
+    color: #fff;
+   }
+   .c1 input {
+    width: 500px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding-left: 10px;
+   }
+   .c1 label {
+    margin: 10px 0 5px 0;
+   }
+   .c2 {
+    padding: 20px;
+    max-width: 40%;
+    border: 2px solid #0457c7;
+    background-color: #fff;
+    display: grid;
+   }
+   .location, .call, .email, .website {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   }
+   .allforth {
+    margin-top: 30px;
+    padding: 0 40px;
+   }
+   .allforth h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+   }
+   .forthimgs{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+   }
+   .fimgs {
+    max-width: 25%;
+    height: auto;
+    object-fit: cover;
+   }
+   /* .fimgs {
+    max-width: 100%;
+    object-fit: cover;
+   } */
+   .forthtext {
+    display: grid;
+    place-items: center;
+    padding: 30px 250px;
+   }
+   .forthtext p {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   }
+   .forthtext button {
+    /* width: 100px; */
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 2px solid #0457c7;
+    border-radius: 20px;
+   }
+   .forthtext button:hover {
+    background-color: #0457c7;
+    color: #fff;
+   }
+   /* ------footer------ */
+   footer {
+    margin-top: 40px;
+    background-color: #000;
+    padding: 60px 80px 60px 60px;
+   }
+   .allfooter {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+   }
+   .links {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+   }
+   .links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+   .flinks li {
+    list-style: none;
+   }
+   .flinks a {
+    text-decoration: none;
+    color: #fff;
+   }
+
+   .socialicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   }
+   .socials {
+    height: 30px;
+    }
+   .c4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+
+    .sidemenu {
+        display: none;
+    }
+}
+
+
+/* --------Tablet Responsiveness-------- */
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
+
+    header {
+        position: relative;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+    }
+    .menuicon {
+        display: none;
+    }
+    .navbar ul {
+        display: flex;
+        gap: 20px;
+    }
+    .navbar li, a {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+    }
+    .navbar a:hover {
+        color: #0457c7;
+        font-weight: bold;
+    }
+    .scrollline {
+        height: 1px;
+        width: 255px;
+        background-color: black;
+        position: absolute;
+        top: 80px;
+        right: 40px;
+    }
+
+    .allfirst {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+    }
+    .lefttext {
+        max-width: 50%;
+        padding: 40px 100px 40px 40px;
+        background-color: #0457c7;
+        color: #fff;
+
+    }
+    .lefttext h2 {
+        font-size: 50px;
+    }
+    .break {
+        margin-top: 30px;
+    }
+    .lefttext p {
+        margin-top: 10px;
+    }
+
+    /* .rightimg {
+        max-width: 50%;
+        padding-right: 40px;
+    } */
+    /* .firstimg {
+        max-width: 100%;
+    } */
+
+    /* --------Second Section-------- */
+    .second {
+        margin-top: 80px;
+    }
+    .allsecond {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        max-width: 100%;
+    }
+    .sleft {
+        max-width: 100%;
+        padding: 40px;
+
+    }
+    .sleft h2 {
+        font-size: 40px;
+    }
+    .sleft p {
+        margin-top: 20px;
+    }
+    .box {
+        background-color: #0457c7;
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .no1 {
+        display: flex;
+        align-items: start;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    .no2 {
+        display: flex;
+        align-items: start;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    .v2 {
+        height: 30px;
+    }
+    /* .sright {
+        max-width: 60%;
+        padding-right: 40px;
+    }
+    .secondimg {
+        max-width: 100%;
+    } */
+
+
+    /* --------Third session-------- */
+    .third {
+    position: relative;
+    background-color: #0457c7;
+    height: 150px;
+    width: 100%;
+    }
+
+    .allthird {
+    position: relative;
+    margin-top: 30px;
+    padding: 40px;
+    }
+    .bcolor{
+    height: 360px;
+    width: 100%;
+    background-color: #0457c7;
+    position: absolute;
+    top: 0;
+    /* z-index: -1; */
+    }
+    .color{
+        height: 365px;
+        width: 100%;
+        background-color: #89B5F0;
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+
+    }
+    .thirdtext {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    /* .thirdtext p{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    } */
+    .thirdtext h2 {
+        margin-bottom: 5px;
+    }
+   .contact {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+   } 
+    .c1 button:hover {
+    background-color: #0457c7;
+    color: #fff;
+   }
+   .c1 {
+    padding: 30px;
+    border: 2px solid #0457c7;
+    background-color: #fff;
+    display: grid;
+   }
+   .c1 button {
+    width: 100px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 2px solid #0457c7;
+    border-radius: 20px;
+   }
+   .c1 input {
+    max-width: 100%;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding-left: 10px;
+   }
+   .c1 label {
+    margin: 10px 0 5px 0;
+   }
+   .c2 {
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 100%;
+    border: 2px solid #0457c7;
+    background-color: #fff;
+    display: grid;
+    gap: 20px;
+   }
+   .location, .call, .email, .website {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   }
+   .allforth {
+    margin-top: 30px;
+    padding: 0 40px;
+   }
+   .allforth h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+   }
+   .forthimgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    gap: 20px;
+    }
+   
+   /* .fimgs {
+    max-width: 100%;
+    object-fit: cover;
+   } */
+   .forthtext {
+    display: grid;
+    place-items: center;
+    padding: 30px;
+   }
+   .forthtext p {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   }
+   .forthtext button {
+    /* width: 100px; */
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 2px solid #0457c7;
+    border-radius: 20px;
+   }
+   .forthtext button:hover {
+    background-color: #0457c7;
+    color: #fff;
+   }
+
+   /* -----Footer------ */
+   footer {
+    margin-top: 40px;
+    background-color: #000;
+    padding: 60px 80px 60px 60px;
+   }
+   .allfooter {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    gap: 40px;
+   }
+   .ftlogo {
+    height: 107px;
+   }
+   .links {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+   }
+   .links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+   .flinks li {
+    list-style: none;
+   }
+   .flinks a {
+    text-decoration: none;
+    color: #fff;
+   }
+
+   .socialicons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   }
+   .socials {
+    height: 30px;
+    }
+   .c4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    .sidemenu {
+        display: none;
+    }
+}
+
+
+/* -------Smartphone Responsiveness------- */
+@media screen and (max-width: 767px) {
+    header {
+        position: relative;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .menuicon {
+        display: block;
+    }
+    .logo {
+        height: 45px;
+    }
+    .navbar ul {
+        display: none;
+    }
+    .navbar li, a {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+    }
+    .scrollline {
+        display: none;
+    }
+
+    .allfirst {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        overflow: hidden;
+    }
+    .lefttext {
+        text-align: center;
+        max-width: 100%;
+        padding: 40px;
+        /* background-color: #0457c7; */
+        color: #000;
+    }
+    .lefttext h2 {
+        font-size: 50px;
+    }
+    .break {
+        margin-top: 30px;
+    }
+    .lefttext p {
+        margin-top: 10px;
+    }
+
+    /* .rightimg {
+        max-width: 50%;
+        padding-right: 40px;
+    } */
+    .firstimg {
+        height: 500px;
+    }
+
+    /* --------Second Section-------- */
+    .second {
+        margin-top: 20px;
+    }
+    .allsecond {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        max-width: 100%;
+    }
+    .secondimg {
+        max-width: 100%;
+    }
+    .sleft {
+        max-width: 100%;
+        padding: 40px;
+
+    }
+    .sleft h2 {
+        font-size: 40px;
+    }
+    .sleft p {
+        margin-top: 20px;
+    }
+    .box {
+        background-color: #0457c7;
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .no1 {
+        display: flex;
+        align-items: start;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    .no2 {
+        display: flex;
+        align-items: start;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    .v2 {
+        height: 30px;
+    }
+
+    /* .sright {
+        max-width: 60%;
+        padding-right: 40px;
+    }
+    .secondimg {
+        max-width: 100%;
+    } */
+
+
+    /* --------Third session-------- */
+    .third {
+    position: relative;
+    background-color: #0457c7;
+    height: 150px;
+    width: 100%;
+    }
+
+    .allthird {
+    position: relative;
+    margin-top: -4px;
+    padding: 40px;
+    }
+    .bcolor{
+        height: 520px;
+        width: 100%;
+        background-color: #0457c7;
+        position: absolute;
+        top: 0;
+        /* z-index: -1; */
+    }
+    .color{
+        height: 365px;
+        width: 100%;
+        background-color: #89B5F0;
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+
+    }
+    .thirdtext {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    /* .thirdtext p{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    } */
+    .thirdtext h2 {
+        margin-bottom: 5px;
+    }
+   .contact {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+   } 
+   .c1 {
+    padding: 30px;
+    border: 2px solid #0457c7;
+    background-color: #fff;
+    display: grid;
+   }
+   .c1 button {
+    width: 100px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 2px solid #0457c7;
+    border-radius: 20px;
+   }
+    .c1 button:hover {
+    background-color: #0457c7;
+    color: #fff;
+   }
+   .c1 input {
+    max-width: 100%;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding-left: 10px;
+   }
+   .c1 label {
+    margin: 10px 0 5px 0;
+   }
+   .c2 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 100%;
+    border: 2px solid #0457c7;
+    background-color: #fff;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+   }
+    .location, .call, .email, .website {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   }
+   .allforth {
+    margin-top: 30px;
+    padding: 0 40px;
+   }
+   .allforth h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+   }
+   .forthimgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    gap: 20px;
+    }
+   
+   /* .fimgs {
+    max-width: 100%;
+    object-fit: cover;
+   } */
+   .forthtext {
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+   }
+   .forthtext p {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   }
+   .forthtext button {
+    /* width: 100px; */
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 2px solid #0457c7;
+    border-radius: 20px;
+   }
+   .forthtext button:hover {
+    background-color: #0457c7;
+    color: #fff;
+   }
+   
+   /* ------Footer------ */
+   footer {
+    margin-top: 40px;
+    background-color: #000;
+    padding: 30px;
+   }
+   .allfooter {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    color: #fff;
+    gap: 40px;
+    }
+    .flogo {
+        display: flex;
+        justify-content: center;
+    }
+   .ftlogo {
+    height: 107px;
+   }
+   .links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+   }
+   .links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+   .flinks li {
+    list-style: none;
+   }
+   .flinks a {
+    text-decoration: none;
+    color: #fff;
+   }
+
+   .socialicons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   }
+   .socials {
+    height: 30px;
+    }
+   .c4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    } 
+
+    /* Hamburger Menu */
+
+    .sidemenu {
+        width: 100vw;
+        height: 50vh;
+        background-color: #0457c7;
+        display: none;
+        position: fixed;
+        z-index: 2;
+    }
+    .sidemenuh {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #fff;
+    }
+    .logo1 {
+        height: 45px;
+    }
+    .side {
+        margin-top: 60px;
+    }
+    .side ul {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        /* font-weight: bold; */
+        font-size: 30px;
+    }
+    .side li {
+        list-style: none;
+    }
+    .side a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .hamburgercloseicon {
+        height: 30px;
+    }
+}

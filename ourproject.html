@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visionary Properties | Our Projects</title>
+    <link rel="shortcut icon" type="icon" href="./Photos/address logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ostyle.css">
+</head>
+<body>
+    
+    <div class="sidemenu">
+        <div class="sidemenu2">
+            <div class="sidemenuh">
+                <a href="index.html"><img class="logo1" src="./Photos/header logo.png"></a>
+                <img class="hamburgercloseicon" onclick="toggleSubmenu()" src="./Photos/hamburger close.png">
+            </div>
+            <div class="side">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="ourproject.html">Our Projects</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="navbar">
+                <a href="index.html"><img class="logo" src="./Photos/header logo.png" alt="Logo"></a>
+
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="ourproject.html">Our Projects</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+
+                <img class="menuicon" onclick="toggleSubmenu()" src="./Photos/Hambuger.png" alt="Menu Icon">
+            </div>
+            <div class="scrollline"></div>
+        </nav>
+    </header>
+
+    <section class="first">
+        <div class="allfirst">
+            <div class="lefttextt">
+                <h1>This Page is under Construction</h1>
+            </div>
+            <div class="rightimage">
+                <img class="icon" src="./Photos/Phone maintenance.gif" >
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="allfooter">
+            <div class="flogo">
+                <a href="index.html"><img class="ftlogo" src="./Photos/footer logo.png"></a>
+            </div>
+
+            <div class="links">
+                <ul class="flinks" >
+                    <p>Quick Links</p>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="ourproject.html">Our Projects</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+                <div class="c4">
+                    <p>Contact Us</p>
+                    <div class="location">
+                        <img class="locationicon" src="./Photos/location.png">
+                        <h4>15B, JEMIDE AVENUE OFF GIWA – 
+                            AMU ROAD, G.R.A, BENIN CITY
+                        </h4>
+                    </div>
+
+                    <div class="call">
+                        <img class="callicon" src="./Photos/call.png">
+                        <h4>+2348124620244<br>
+                            +2348109942680
+                        </h4>
+                    </div>
+
+                    <div class="email">
+                        <img class="emailicon" src="./Photos/email.png">
+                        <h4>VISIONARYPRO.HQ@GMAIL.COM
+                        </h4>
+                    </div>
+
+                    <!-- <div class="website">
+                        <img class="webicon" src="./Photos/website.png">
+                        <h4>VISIONARYPRO_ HQ</h4>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="socialicons">
+            <a href="https://www.instagram.com/visionarypro_hq" target="_blank"><img class="socials" src="./Photos/IG icon.png"></a>
+            <a href="https://www.facebook.com" target="_blank"><img class="socials" src="./Photos/FB icon.png"></a>
+            <a href="https://wa.me/+2348109942680" target="_blank"><img class="socials" src="./Photos/Whatsapp icon.png"></a>
+        </div>
+    </footer> 
+
+    <script>
+        const toggleSubmenu = () => {
+            const sidemenu = document.querySelector('.sidemenu');
+            const sidemenu2 = document.querySelector('.sidemenu2');
+            const hamburgericon = document.querySelector('.hamburgericon')
+            
+            if(sidemenu2.style.display === 'block') {
+                sidemenu.style.display = 'none';
+                sidemenu2.style.display = 'none';
+            }
+
+            else {
+                sidemenu.style.display = 'block';
+                sidemenu2.style.display = 'block';   
+            }
+        }
+    </script>
+    
+</body>
+</html>

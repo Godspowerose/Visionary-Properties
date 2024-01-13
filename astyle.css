@@ -1,0 +1,682 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        position: relative;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+    }
+    .menuicon {
+        display: none;
+    }
+    .navbar ul {
+        display: flex;
+        gap: 20px;
+    }
+    .navbar li, a {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+    }
+    .navbar a:hover {
+        color: #0457c7;
+        font-weight: bold;
+    }
+    .scrollline {
+        height: 1px;
+        width: 255px;
+        background-color: black;
+        position: absolute;
+        top: 80px;
+        right: 40px;
+    }
+
+    .first {
+        padding: 40px;
+    }
+    .text {
+        padding: 40px 300px;
+        background-color: #0457c7;
+        color: #fff;
+        text-align: center;
+    }
+    .text h2 {
+        font-size: 40px;
+    }
+
+    /* ------second section------ */
+
+    .second {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 33px;
+    }
+
+    /* ------third section------ */
+
+    .allthird {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 100px;
+        max-width: 100%;
+    }
+    .tleft {
+        max-width: 50%;
+        padding-right: 100px;
+    }
+    .tleft h2 {
+        font-size: 40px;
+        color: #0457c7;
+    }
+    .tleft p {
+        margin-top: 20px;
+    }
+
+    /* ------fourth section------ */
+
+    .allfourth {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+        max-width: 100%;
+    }
+    .box1 {
+        background-color: #0457c7;
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .no1 {
+        display: flex;
+        align-items: start;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    .no2 {
+        display: flex;
+        align-items: start;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    .v2 {
+        height: 30px;
+    }
+    /* ------fifth section------ */
+    .fifth {
+        padding: 40px;
+    }
+    .allfifth {
+        background-color: #ECECEC;
+        padding: 30px 200px;
+    }
+    .allfifth h2 {
+        text-align: center;
+        font-size: 40px;
+        color: #0457c7;
+
+    }
+    .box {
+        margin-top: 20px;
+        padding: 0 100px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .service1, .service2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-weight: bold;
+    }
+    .serv {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .point {
+        width: 8px;
+        height: 8px;
+        background-color: #0457c7;
+    }
+
+        /* ------Footer------ */
+
+    footer {
+        margin-top: 40px;
+        background-color: #000;
+        padding: 60px 80px 60px 60px;
+    }
+    .allfooter {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+    }
+    .links {
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+    }
+    .links ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .flinks li {
+        list-style: none;
+    }
+    .flinks a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .socialicons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .socials {
+        height: 30px;
+    }
+    .c4 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .location, .call, .email, .website {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .sidemenu {
+        display: none;
+    }
+    
+}
+
+/* ------Responsiveness for Tablet------ */
+
+@media screen and (min-width:767px) and (max-width:1023px) {
+    header {
+        position: relative;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+    }
+    .menuicon {
+        display: none;
+    }
+    .navbar ul {
+        display: flex;
+        gap: 20px;
+    }
+    .navbar li, a {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+    }
+    .navbar a:hover {
+        color: #0457c7;
+        font-weight: bold;
+    }
+    .scrollline {
+        height: 1px;
+        width: 255px;
+        background-color: black;
+        position: absolute;
+        top: 80px;
+        right: 40px;
+    }
+
+    .first {
+        padding: 40px;
+    }
+    .text {
+        padding: 40px 60px;
+        background-color: #0457c7;
+        color: #fff;
+        text-align: center;
+    }
+    .text h2 {
+        font-size: 40px;
+    }
+
+    /* ------second section------ */
+
+    .second {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 35px;
+        padding: 10px 33px;
+    }
+
+    /* ------third section------ */
+
+    .allthird {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 40px 100px;
+        max-width: 100%;
+    }
+    .tleft {
+        max-width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .tleft h2 {
+        font-size: 40px;
+        color: #0457c7;
+    }
+    .tleft p {
+        margin-top: 20px;
+    }
+
+    /* ------fourth section------ */
+
+    .allfourth {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        padding: 40px;
+        max-width: 100%;
+    }
+    .box1 {
+        background-color: #0457c7;
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .no1 {
+        display: flex;
+        align-items: start;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    .no2 {
+        display: flex;
+        align-items: start;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    .v2 {
+        height: 30px;
+    }
+
+
+    /* ------fifth section------ */
+    .fifth {
+        padding: 40px;
+    }
+    .allfifth {
+        background-color: #ECECEC;
+        padding: 30px 0;
+    }
+    .allfifth h2 {
+        text-align: center;
+        font-size: 40px;
+        color: #0457c7;
+
+    }
+    .box {
+        margin-top: 20px;
+        padding: 0 100px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .service1, .service2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-weight: bold;
+    }
+    .serv {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .point {
+        width: 8px;
+        height: 8px;
+        background-color: #0457c7;
+    }
+
+    /* -----Footer------ */
+    footer {
+    margin-top: 40px;
+    background-color: #000;
+    padding: 60px 80px 60px 60px;
+    }
+    .allfooter {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    gap: 40px;
+    }
+    .ftlogo {
+    height: 107px;
+    }
+    .links {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    }
+    .links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    .flinks li {
+    list-style: none;
+    }
+    .flinks a {
+    text-decoration: none;
+    color: #fff;
+    }
+    
+    .socialicons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    }
+    .socials {
+    height: 30px;
+    }
+    .c4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+
+    .sidemenu {
+        display: none;
+    }
+}
+
+/* ------Smartphone Responsiveness */
+
+@media screen and (max-width:767px) {
+    header {
+        position: relative;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+    }
+    .menuicon {
+        display: block;
+    }
+    .navbar ul {
+        /* display: flex;
+        gap: 20px; */
+        display: none;
+    }
+    .logo {
+        height: 45px;
+    }
+    .navbar li, a {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+    }
+    .scrollline {
+        height: 1px;
+        width: 255px;
+        background-color: black;
+        position: absolute;
+        top: 80px;
+        right: 40px;
+        display: none;
+    }
+
+    /* .first {
+        padding: 40px;
+    } */
+    .text {
+        padding: 40px 12px;
+        background-color: #0457c7;
+        color: #fff;
+        text-align: center;
+    }
+    .text h2 {
+        font-size: 20px;
+    }
+
+
+    /* ------second section------ */
+
+    .second {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 35px;
+        /* padding: 10px 33px; */
+        overflow: hidden;
+    }
+    .simgs {
+        display: none;
+    }
+    .simgs1 {
+        height: 500px;
+    }
+
+    /* ------third section------ */
+
+    .allthird {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 40px 40px;
+        max-width: 100%;
+    }
+    .tleft {
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .tleft h2 {
+        font-size: 40px;
+        color: #0457c7;
+    }
+    .tleft p {
+        margin-top: 20px;
+    }
+
+    /* ------fourth section------ */
+
+    .allfourth {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        padding: 40px;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .box1 {
+        background-color: #0457c7;
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .no1 {
+        display: flex;
+        align-items: start;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    .no2 {
+        display: flex;
+        align-items: start;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    .v2 {
+        height: 30px;
+    }
+
+    /* ------fifth section------ */
+    .fifth {
+        padding: 40px;
+    }
+    .allfifth {
+        background-color: #ECECEC;
+        padding: 30px 0;
+    }
+    .allfifth h2 {
+        text-align: center;
+        font-size: 40px;
+        color: #0457c7;
+
+    }
+    .box {
+        margin-top: 20px;
+        padding: 0 41px 20px;
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+    }
+    .service1, .service2 {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        font-weight: bold;
+    }
+    .serv {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .point {
+        width: 8px;
+        height: 8px;
+        background-color: #0457c7;
+    }
+
+    /* -----Footer------ */
+    footer {
+    margin-top: 40px;
+    background-color: #000;
+    padding: 30px;
+    }
+    .allfooter {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    color: #fff;
+    gap: 40px;
+    }
+    .flogo {
+        display: flex;
+        justify-content: center;
+    }
+    .ftlogo {
+    height: 107px;
+    }
+    .links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    }
+    .links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    .flinks li {
+    list-style: none;
+    }
+    .flinks a {
+    text-decoration: none;
+    color: #fff;
+    }
+
+    .socialicons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    }
+    .socials {
+    height: 30px;
+    }
+    .c4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    } 
+
+    /* Hamburger Menu */
+
+    .sidemenu {
+        width: 100vw;
+        height: 50vh;
+        background-color: #0457c7;
+        display: none;
+        position: fixed;
+        z-index: 2;
+    }
+    .sidemenuh {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #fff;
+    }
+    .logo1 {
+        height: 45px;
+    }
+    .side {
+        margin-top: 60px;
+    }
+    .side ul {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        /* font-weight: bold; */
+        font-size: 30px;
+    }
+    .side li {
+        list-style: none;
+    }
+    .side a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .hamburgercloseicon {
+        height: 30px;
+    }
+}
